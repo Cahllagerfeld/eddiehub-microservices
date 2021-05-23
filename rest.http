@@ -1,0 +1,12 @@
+POST  http://localhost:3000
+Client-Token: abc
+Content-Type:: "application/json"
+
+{
+    "author": {
+        "platform":"discord",
+        "uid": "Cahl"
+    },
+    "todayMessage":"Hallo",
+    "yesterdayMessage":"Benjamin"
+}
